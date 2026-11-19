@@ -1,0 +1,44 @@
+# ---------- Java / Spring Boot / Maven / Gradle ----------
+target/
+build/
+*.class
+*.jar
+*.war
+*.log
+!.mvn/wrapper/maven-wrapper.jar
+HELP.md
+
+# ---------- Angular / Node ----------
+node_modules/
+dist/
+.angular/
+npm-debug.log*
+coverage/
+
+# ---------- IDEs ----------
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+.sts4/
+
+# ---------- OS ----------
+.DS_Store
+Thumbs.db
+
+# ---------- Secrets / local config ----------
+.env
+*.env.local
+application-local.properties
+application-local.yml
+*.pem
+*.key
+
+# ---------- Local DB / data ----------
+data/
+*.db
+*.mv.db
+*.trace.db
